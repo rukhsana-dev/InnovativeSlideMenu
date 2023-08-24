@@ -101,14 +101,14 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               ListTile(
                 leading: Icon(Icons.girl_rounded, color: Colors.purple),
-                title: Text('Women'),
+                title: Text('Girl'),
                 onTap: () {
                   // Navigate to Women screen
                 },
               ),
               ListTile(
-                leading: Icon(Icons.man, color: Colors.purple),
-                title: Text('Men'),
+                leading: Icon(Icons.man_rounded, color: Colors.purple),
+                title: Text('Man'),
                 onTap: () {
                   // Navigate to Men screen
                 },
